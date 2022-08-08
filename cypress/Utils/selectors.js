@@ -1,4 +1,4 @@
-const practiceSelectors = {
+const practiceSelectors = { //logieage
 
     firstName:"th[st-sort='firstName']",
     lastName: "th[st-sort='lastName']",
@@ -10,7 +10,6 @@ const practiceSelectors = {
 
 }
 
-
  const diffSelectors = {
 
    homeOne : "a[href='https://www.rahulshettyacademy.com/']",
@@ -20,4 +19,4 @@ const practiceSelectors = {
 
 }
 
-export default {practiceSelectors};
+export default {practiceSelectors,diffSelectors};
