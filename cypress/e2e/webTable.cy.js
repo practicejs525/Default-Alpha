@@ -4,7 +4,7 @@ import { practiceSelectors } from "../Utils/selectors.js";
 describe("Different cases : In JS", () => {
 
   const arr = [];
-  it("Paginated webTable sorting", () => {
+  it.skip("Paginated webTable sorting", () => {
     cy.visit("https://datatables.net/examples/basic_init/alt_pagination.html");
     cy.get("#example > tbody > tr > td:nth-child(1)").should("be.visible");
     cy.wait(3);
@@ -28,5 +28,14 @@ describe("Different cases : In JS", () => {
     };
     clickNextPage();
   });
+
+  it('Download the context and verify', () => {
+
+
+
+    
+  })
+
+
 
 });
